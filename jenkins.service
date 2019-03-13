@@ -5,7 +5,7 @@ Description=Jenkins
 User=jenkins
 
 WorkingDirectory=/home/jenkins
-ExecStart=/usr/bin/java -jar /home/spring/jenkins.war
+ExecStart=/usr/bin/java -jar /home/jenkins/jenkins.war
 
 [Install]
 WantedBy=multi-user.target
