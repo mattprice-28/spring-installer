@@ -1,3 +1,4 @@
+#!/bin/bash
 # create spring user
 `sudo useradd -m -s /bin/bash spring`
 
